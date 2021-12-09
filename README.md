@@ -3,7 +3,7 @@ In personality typology, the Myers–Briggs Type Indicator (MBTI) is an introspe
 * For this study, we will focus on the performance therefore, look specifically for prediction of the first category (Prediction for Extraversion vs Introversion)
 
 
-![ScreenShot](https://github.com/wjj1019/Customer-Segmentation---Case-Study/blob/main/Data/Customer-segmentation.png)
+![ScreenShot](https://github.com/wjj1019/MBTI-Prediction/blob/main/Process/MyersBriggsTypes.png)
 
 
 Project Purpose
