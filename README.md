@@ -21,7 +21,7 @@ https://www.kaggle.com/datasnaek/mbti-type
 
 Methods
 --------
-1.**Data Cleaning
+1.**Data Cleaning**
 - Text data was processed by removing unwanted/unecessary information (Such as Website Link)
 
 2.**Feature Engineering/ Text Preprocessing
