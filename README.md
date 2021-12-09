@@ -24,25 +24,25 @@ Methods
 1.**Data Cleaning**
 - Text data was processed by removing unwanted/unecessary information (Such as Website Link)
 
-2.**Feature Engineering/ Text Preprocessing
+2.**Feature Engineering/ Text Preprocessing**
 - Removal of Stopwords and Punctuations
 - All texts into lower case
 - Links and Emails Dropped (Unnecessary Information)
 - Words with less than two words dropped 
 - Stemming and Lemmatizing 
 
-3. **Feature Extraction
+3. **Feature Extraction**
 - Count Vectorizer (Bag of Words): Sparse Matrix with frequency measure for each word per document
 - TF-IDF (Term Frequency - Inverse Document Frequency): Measure of importance of a word is to a document (Weighted measure - Score based representation)
 - Word Embedding (Word2Vec): Pretrained embedding matrix (300 Dimension) represents each word in 300 dimensional space 
 - Word Vector -> Sentence Vector: Word2Vec consists of 300dim vectors for each word, therefore avearging all the vectors (words) within a document to create a sentence vector
 - Word2Vec + TFIDf: Combination of Word2Vec with TFIDF Score, Multiplying the TFIDF Score with Word Vector from Word2Vec and take the average to creat a sentence vector
 
-4. **Imbalance Dataset Control
+4. **Imbalance Dataset Control**
 - The data was heavily skewed towards one side and therefore performed Oversampling Method (SMOTE) to balance out the dataset
 - Combination of Over and Undersampling can be done for better performance, however, the memory usage was limited in the local environment
 
-4. **Machine Learning (Classification)
+4. **Machine Learning (Classification)**
 Input/Independent Variable(X): Sentence Vector (One of the 5 Methods from Feature Extraction Method)
 Output/Dependent Variable (Y): Label Encoded MBTI Type (E or I => 0, 1)
 
@@ -55,13 +55,13 @@ Evaluation Method
 - Accuracy Score
 - Confusion Matrix 
 
-5. Neural Network
+5. **Neural Network**
 - LSTM with Embedding Layer as an Input
 - LSTM with Pretrained Word2Vec as an Input (Embedding Matrix)
 - Multilayered Perceptron 
 - LSTM + Convolutional Layer 
 
-Evaluation Method
+**Evaluation Method**
 - Accuracy Score
 
 Finding/Conclusion
