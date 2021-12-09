@@ -1,6 +1,5 @@
 # MBTI-Prediction
 In personality typology, the Myers–Briggs Type Indicator (MBTI) is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions.The test attempts to assign four categories: introversion or extraversion, sensing or intuition, thinking or feeling, judging or perceiving.
-* For this study, we will focus on the performance therefore, look specifically for prediction of the first category (Prediction for Extraversion vs Introversion)
 
 
 ![ScreenShot](https://github.com/wjj1019/MBTI-Prediction/blob/main/Process/MyersBriggsTypes.png)
@@ -10,6 +9,8 @@ Project Purpose
 -----------------
 The aim of this project is to make a prediction of an individual's MBTI (myers briggs personality types) based on their comments made to a certain blog
 The prediction can lead towards better identification of a person's trait and may lead to more enhanced Recommenders Systems.
+
+* For this study, we will focus on the performance therefore, look specifically for prediction of the first category (Prediction for Extraversion vs Introversion)
 
 Data
 ------
